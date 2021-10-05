@@ -211,7 +211,7 @@ async def stream(client, m: Message):
             await msg.delete()
             await m.reply_photo(
                photo=thumb,
-               caption=f"▶️ **بدأ بث الفيديو(https://t.me/Jepthon) In {m.chat.title} !**",
+               caption=f"▶️ **بدأ بث الفيديو(https://t.me/ALRAGIBOT) In {m.chat.title} !**",
                reply_markup=InlineKeyboardMarkup(
                [
                    [

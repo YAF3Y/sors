@@ -58,7 +58,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🔙 رجوع", callback_data="start"),
-                InlineKeyboardButton ("كروب المجموعة 💬", url=f"https://t.me/CHTLHB"),
+                InlineKeyboardButton ("قروب المجموعة 💬", url=f"https://t.me/CHTLHB"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -74,7 +74,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🔙 الرجوع", callback_data="start"),
-                InlineKeyboardButton ("كروب المجموعة 💬", url=f"https://t.me/CHTLHB"),
+                InlineKeyboardButton ("قروب المجموعة 💬", url=f"https://t.me/CHTLHB"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
